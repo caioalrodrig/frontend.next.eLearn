@@ -1,0 +1,35 @@
+.dividerText{
+  color: #c9c9c9;
+}
+
+.nav{
+  display: flex;
+  flex-direction: column;
+
+  & p{
+    align-self: center;
+  }
+
+  & button{
+    align-self: center;
+    width: 25ch;
+  }
+
+  & a{
+    color:  var(--tertiary-dark);
+    cursor: pointer;
+  }
+}
+
+.oauthBtn{
+  padding-left: 20px;
+
+}
+
+.userInfo{
+  width: 300px;
+  align-self: center;
+  word-wrap: break-word;
+  margin: 0;
+  padding: 0;
+}
